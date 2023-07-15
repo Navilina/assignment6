@@ -21,5 +21,5 @@ jobs:
       - name: Build and push container
         run: |
           docker build -t my-container .
-          docker tag my-container navilina/my-image6:<tag>
-          docker push navilina/my-image6:<tag>
+          docker tag my-container navilina/my-image6:latest
+          docker push navilina/my-image6:latest
