@@ -17,9 +17,6 @@ WORKDIR $APP_HOME
 # Copy application code into the container
 COPY . $APP_HOME
 
-# Install application dependencies
-RUN pip3 install -r requirements.txt
-
 # Copy myinfo.html and style.css files
 COPY myinfo.html style.css $APP_HOME
 
