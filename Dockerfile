@@ -18,7 +18,7 @@ WORKDIR $APP_HOME
 COPY . $APP_HOME
 
 # Copy myinfo.html and style.css files
-COPY myinfo.html style.css $APP_HOME
+COPY myinfo.html style.css $APP_HOME/
 
 # Expose any necessary ports
 EXPOSE 8000
